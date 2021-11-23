@@ -99,7 +99,7 @@ db :yuhuan_moniotr_test_python
 
 redis:
 database: 6
-# host: 172.17.224.172
+#host: 172.17.224.172
 lettuce:
 pool:
 max-active: 8 #最大连接数据库连接数,设 0 为没有限制
