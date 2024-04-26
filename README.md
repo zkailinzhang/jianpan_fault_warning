@@ -89,17 +89,12 @@ os.system('./script.sh')
 
 online mysql
 
-mysql
-172.17.224.171 
-root 
-Qwe123!!
-yuhuan_moniotr_test_python
-db :yuhuan_moniotr_test_python
+
 
 
 redis:
 database: 6
-#host: 172.17.224.172
+
 lettuce:
 pool:
 max-active: 8 #最大连接数据库连接数,设 0 为没有限制
@@ -112,17 +107,13 @@ port: 6379
 #哨兵模式 redis 集群
 sentinel:
 #哨兵的 ip 和端口
-nodes: 172.17.224.172:26379,172.17.224.171:26379,172.17.224.172:26380
 master: mymaster
 
 
 
 hase  
 
-hbase:
-ip: 172.17.224.171
-#集群模式使用
-master: master:9000
+
 
 历史表  history_point
 
@@ -321,17 +312,6 @@ else
 echo"You should eat a bit more fruit."
 fi
 
-    mysql_host = '172.17.224.171'
-    mysql_port = 3306
-    mysql_user = 'root'
-    mysql_password = 'Qwe123!!'
-    mysql_db = 'yuhuan_moniotr_test_python'
-
-    mysql_host = '172.17.231.59'
-    mysql_port = 3306
-    mysql_user = 'root'
-    mysql_password = 'root'
-    mysql_db = 'yuhuan_monitor_dev'
 
 
 
